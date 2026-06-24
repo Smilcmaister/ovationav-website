@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+<script>document.documentElement.classList.replace('no-js','js')</script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,8 +72,9 @@
     display:block;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;
     color:var(--ember-soft);font-weight:500;
   }
-  .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}
-  .reveal.in{opacity:1;transform:none}
+  .reveal{opacity:1;transform:none}
+  html.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}
+  html.js .reveal.in{opacity:1;transform:none}
   body.is-loading{overflow:hidden}
 
   /* ——— LOGO LOCKUP ——— */
@@ -493,7 +495,7 @@
         radial-gradient(ellipse 90% 70% at 72% 18%,rgba(240,120,47,0.14),transparent 58%),
         linear-gradient(180deg,#0C0C0E 0%,var(--obsidian) 55%,#070708 100%);
     }
-    .reveal{opacity:1;transform:none;transition:none}
+    html.js .reveal{opacity:1;transform:none;transition:none}
     .loader .logo-word,.loader .logo-br,.loader .logo-tag{animation:none;opacity:1;transform:none}
     .loader-flare{animation:none;opacity:0}
   }
@@ -503,16 +505,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "LocalBusiness"],
+      "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
       "@id": "https://ovationav.si/#org",
       "name": "OVATION",
       "url": "https://ovationav.si/",
       "email": "info@ovationav.si",
       "telephone": "+38670481811",
       "slogan": "Live happens once.",
-      "description": "Slovenia-based video production company: concert, festival and conference filming, multi-camera live streaming, corporate and promotional video, and full-length films. Available for international productions across the EU.",
+      "description": "Slovenia-based video production studio specialising in live events: concert filming, festival films and aftermovies, conference video production, multi-camera live streaming, corporate and promotional video, and full-length films.",
       "image": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
       "knowsLanguage": ["sl", "en"],
+      "priceRange": "€€",
+      "serviceType": [
+        "Concert filming",
+        "Festival films & aftermovies",
+        "Conference video production",
+        "Multi-camera live streaming",
+        "Corporate video",
+        "Promotional video",
+        "Full-length films & documentaries"
+      ],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Ljubljana",
@@ -591,6 +603,9 @@
   ]
 }
 </script>
+<noscript>
+  <style>.loader{display:none!important}body.is-loading{overflow:visible}</style>
+</noscript>
 </head>
 <body class="is-loading">
 
