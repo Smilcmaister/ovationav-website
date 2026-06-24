@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videoprodukcija &amp; snemanje dogodkov v živo — OVATION | Slovenija</title>
+<meta name="description" content="Videoprodukcijski studio OVATION: snemanje koncertov, festivalov in konferenc po vsej Sloveniji, spletni prenosi v živo z več kamerami ter korporativni in promocijski videi. Začnimo vaš projekt.">
+<meta name="keywords" content="videoprodukcija, snemanje dogodkov, snemanje koncertov, snemanje konferenc, spletni prenosi v živo, live streaming Slovenija, korporativni video, promocijski video, videograf Ljubljana, video produkcija Ljubljana, aftermovie">
+<meta name="author" content="OVATION">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://ovationav.si/ovation-home.html">
+
+<!-- Bilingual targeting -->
+<link rel="alternate" hreflang="sl" href="https://ovationav.si/ovation-home.html">
+<link rel="alternate" hreflang="en" href="https://ovationav.si/ovation-home-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ovationav.si/ovation-home.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OVATION">
+<meta property="og:locale" content="sl_SI">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="Videoprodukcija &amp; snemanje dogodkov v živo — OVATION | Slovenija">
+<meta property="og:description" content="Snemanje koncertov, festivalov in konferenc po vsej Sloveniji, spletni prenosi v živo z več kamerami ter korporativni in promocijski videi.">
+<meta property="og:url" content="https://ovationav.si/ovation-home.html">
+<meta property="og:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.png">
+<meta property="og:image:alt" content="OVATION — snemanje koncerta v naravi">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Videoprodukcija &amp; snemanje dogodkov v živo — OVATION">
+<meta name="twitter:description" content="Snemanje koncertov, festivalov in konferenc po vsej Sloveniji, prenosi v živo, korporativni in promocijski videi.">
+<meta name="twitter:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.png">
+
+<meta name="theme-color" content="#09090B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2309090B'/%3E%3Cpath d='M6 6h8M6 6v8M26 26h-8M26 26v-8' stroke='%23F0782F' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --obsidian:#09090B;
+    --obsidian-2:#101014;
+    --bone:#F3EFE7;
+    --slate:#9A948B;
+    --slate-2:#6A665F;
+    --ember:#F0782F;
+    --ember-soft:#FFAB66;
+    --line:rgba(243,239,231,0.10);
+    --line-2:rgba(243,239,231,0.20);
+    --maxw:1160px;
+    --section-y:clamp(88px,13vh,160px);
+    --grid-gap:clamp(24px,4vw,48px);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Archivo',system-ui,sans-serif;
+    background:var(--obsidian);
+    color:var(--bone);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--ember);color:var(--obsidian)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+  .serif{font-family:'Instrument Serif',Georgia,serif}
+  .eyebrow{
+    display:block;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;
+    color:var(--ember-soft);font-weight:500;
+  }
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+  body.is-loading{overflow:hidden}
+
+  /* ——— LOGO LOCKUP ——— */
+  .logo-lock{position:relative;display:inline-block}
+  .logo-word{
+    font-weight:500;letter-spacing:0.30em;color:var(--bone);
+    line-height:1;text-indent:0.30em;
+  }
+  .logo-br{position:absolute;width:52px;height:52px}
+  .logo-tl{top:0;left:0;border-top:2.5px solid var(--ember);border-left:2.5px solid var(--ember)}
+  .logo-br-b{bottom:0;right:0;border-bottom:2.5px solid var(--ember);border-right:2.5px solid var(--ember)}
+  .logo-tag{
+    margin-top:34px;font-size:13px;font-weight:500;letter-spacing:0.46em;
+    color:var(--slate);text-indent:0.46em;text-transform:uppercase;
+  }
+
+  /* ——— PAGE LOADER ——— */
+  .loader{
+    position:fixed;inset:0;z-index:200;
+    display:flex;align-items:center;justify-content:center;
+    background:var(--obsidian);
+    transition:opacity .65s ease,visibility .65s ease;
+  }
+  .loader.is-done{opacity:0;visibility:hidden;pointer-events:none}
+  .loader-inner{
+    position:relative;display:flex;flex-direction:column;align-items:center;
+    padding:24px;
+  }
+  .loader-glow{
+    position:absolute;top:34%;left:50%;width:min(560px,90vw);height:min(560px,90vw);
+    transform:translate(-50%,-50%);
+    background:radial-gradient(circle,rgba(240,120,47,0.20) 0%,rgba(240,120,47,0.07) 38%,transparent 70%);
+    pointer-events:none;
+  }
+  .loader-flare{
+    position:absolute;top:34%;left:50%;width:min(560px,90vw);height:min(560px,90vw);
+    transform:translate(-50%,-50%);
+    background:radial-gradient(circle,rgba(255,171,102,0.55) 0%,rgba(240,120,47,0) 55%);
+    pointer-events:none;opacity:0;
+    animation:loaderFlare 2.4s ease-out .95s 1 forwards;
+  }
+  .loader .logo-lock{padding:30px 46px 32px}
+  .loader .logo-word{
+    font-size:clamp(38px,8.4vw,76px);
+    opacity:0;animation:loaderWord .9s cubic-bezier(.2,.7,.2,1) .15s 1 forwards;
+  }
+  .loader .logo-br{opacity:0}
+  .loader .logo-tl{animation:loaderTL .85s cubic-bezier(.2,.8,.2,1) .55s 1 forwards}
+  .loader .logo-br-b{animation:loaderBR .85s cubic-bezier(.2,.8,.2,1) .55s 1 forwards}
+  .loader .logo-tag{opacity:0;animation:loaderTag .8s ease-out 1.25s 1 forwards}
+  @keyframes loaderWord{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes loaderTL{from{opacity:0;transform:translate(-22px,-22px)}to{opacity:1;transform:translate(0,0)}}
+  @keyframes loaderBR{from{opacity:0;transform:translate(22px,22px)}to{opacity:1;transform:translate(0,0)}}
+  @keyframes loaderTag{to{opacity:1}}
+  @keyframes loaderFlare{0%{opacity:0}45%{opacity:1}100%{opacity:0}}
+  .sr-only{
+    position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0,0,0,0);white-space:nowrap;border:0;
+  }
+
+  /* ——— NAV ——— */
+  nav{
+    position:fixed;inset:0 0 auto;z-index:100;
+    padding:14px 0;
+    transition:padding .35s ease,background .35s ease,border-color .35s ease;
+    border-bottom:1px solid transparent;
+  }
+  .nav-inner{
+    max-width:var(--maxw);margin:0 auto;padding:0 32px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  nav.scrolled{
+    padding:12px 0;
+    background:rgba(9,9,11,0.88);
+    border-color:var(--line);
+    backdrop-filter:blur(12px);
+  }
+  nav:not(.scrolled) .brand,
+  nav:not(.scrolled) .nav-links a:not(.nav-cta){
+    color:var(--bone);
+    text-shadow:0 1px 18px rgba(0,0,0,0.45);
+  }
+  .brand{display:inline-flex;align-items:center}
+  .logo-svg{display:block;height:32px;width:auto}
+  .nav-links{display:flex;align-items:center;gap:32px}
+  .nav-links a{
+    font-size:15px;font-weight:500;color:var(--bone);
+    letter-spacing:0.03em;transition:color .25s ease,opacity .25s ease;
+  }
+  .nav-links a:hover{color:var(--ember-soft)}
+  nav.scrolled .nav-links a:not(.nav-cta){color:rgba(243,239,231,0.82)}
+  nav.scrolled .nav-links a:not(.nav-cta):hover{color:var(--bone)}
+  .nav-cta{
+    font-size:14px;font-weight:600;color:var(--ember-soft);
+    letter-spacing:0.05em;text-transform:uppercase;
+    border-bottom:2px solid var(--ember-soft);padding-bottom:3px;
+    transition:border-color .25s ease,color .25s ease;
+  }
+  .nav-cta:hover{color:var(--bone);border-color:var(--bone)}
+  .lang-switch{
+    font-size:13px;font-weight:600;letter-spacing:0.14em;
+    color:var(--slate);transition:color .25s ease;
+  }
+  .lang-switch:hover{color:var(--ember-soft)}
+  nav.scrolled .lang-switch{color:var(--slate-2)}
+  nav.scrolled .lang-switch:hover{color:var(--bone)}
+
+  /* ——— HERO ——— */
+  .hero{
+    position:relative;min-height:100vh;display:flex;align-items:center;
+    overflow:hidden;border-bottom:1px solid var(--line);
+    background:var(--obsidian);
+  }
+  .hero-media{
+    position:absolute;inset:0;z-index:0;overflow:hidden;
+  }
+  .hero-video{
+    width:100%;height:100%;object-fit:cover;object-position:center 28%;
+    transform:scale(1.31);
+  }
+  .hero-scrim{
+    position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:
+      linear-gradient(to right,rgba(9,9,11,0.82) 0%,rgba(9,9,11,0.48) 36%,rgba(9,9,11,0.15) 100%),
+      linear-gradient(to top,rgba(9,9,11,0.35) 0%,transparent 14%),
+      radial-gradient(ellipse 70% 55% at 78% 22%,rgba(240,120,47,0.10),transparent 62%);
+  }
+  .hero-atmosphere{
+    position:absolute;inset:0;z-index:2;pointer-events:none;
+    background:
+      radial-gradient(ellipse 50% 40% at 20% 80%,rgba(240,120,47,0.04),transparent 55%);
+  }
+  .hero-light{
+    position:absolute;top:-15%;right:-5%;width:65%;height:85%;z-index:2;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 40%,rgba(255,171,102,0.08) 0%,rgba(240,120,47,0.04) 40%,transparent 72%);
+    filter:blur(48px);
+    animation:breathe 9s ease-in-out infinite;
+  }
+  .hero-falloff{
+    position:absolute;inset:0;z-index:2;pointer-events:none;
+    background:linear-gradient(118deg,transparent 42%,rgba(240,120,47,0.02) 58%,rgba(240,120,47,0.06) 72%,transparent 88%);
+  }
+  @keyframes breathe{
+    0%,100%{opacity:.75;transform:translateY(0)}
+    50%{opacity:1;transform:translateY(-12px)}
+  }
+  .hero-content{position:relative;z-index:3;width:100%;padding:88px 0 100px}
+  .hero h1{
+    font-size:clamp(56px,10.5vw,148px);font-weight:600;
+    line-height:0.92;letter-spacing:-0.03em;max-width:11ch;margin-top:20px;
+  }
+  .hero h1 em{font-style:normal;color:var(--ember-soft)}
+  .lede{
+    margin-top:32px;font-size:clamp(17px,1.9vw,21px);color:var(--slate);
+    max-width:42ch;line-height:1.65;
+  }
+  .hero-actions{margin-top:44px;display:flex;flex-wrap:wrap;gap:20px;align-items:center}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    font-size:14px;font-weight:500;letter-spacing:0.02em;
+    padding:14px 0;border-bottom:1px solid transparent;transition:all .25s ease;
+  }
+  .btn-ember{color:var(--ember-soft);border-bottom-color:var(--ember-soft)}
+  .btn-ember:hover{color:var(--bone);border-bottom-color:var(--bone)}
+  .btn-ghost{color:var(--slate)}
+  .btn-ghost:hover{color:var(--bone)}
+  .btn-arrow::after{content:"→";margin-left:4px;transition:transform .25s ease}
+  .btn:hover::after{transform:translateX(4px)}
+  .scroll-hint{
+    position:absolute;bottom:36px;left:0;right:0;z-index:3;
+    max-width:var(--maxw);margin:0 auto;padding:0 32px;
+    font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--slate-2);
+  }
+
+  main{display:flex;flex-direction:column}
+
+  /* ——— CLIENT LOGOS ——— */
+  .clients{
+    padding:48px 0;border-bottom:1px solid var(--line);overflow:hidden;
+    background:var(--obsidian-2);
+  }
+  .clients .lbl{
+    text-align:center;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;
+    color:var(--slate-2);margin-bottom:32px;
+  }
+  .marquee--logos{display:flex;width:max-content;animation:slide 55s linear infinite}
+  .marquee--logos:hover{animation-play-state:paused}
+  .client-logos{
+    display:flex;align-items:center;gap:clamp(28px,4vw,48px);
+    list-style:none;padding:0 24px;margin:0;
+  }
+  .client-logos li{
+    flex:0 0 auto;
+    width:clamp(130px,14vw,168px);
+    height:clamp(44px,5.5vw,56px);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .client-logos img{
+    display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;
+    opacity:0.62;filter:grayscale(1) brightness(1.15);
+    transition:opacity .25s ease,filter .25s ease;
+  }
+  .client-logos li:hover img{opacity:0.95;filter:grayscale(0) brightness(1)}
+  @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* ——— SECTIONS ——— */
+  .section{padding:var(--section-y) 0;border-bottom:1px solid var(--line)}
+  section.block{padding:var(--section-y) 0;border-bottom:1px solid var(--line)}
+  .section-head{
+    display:grid;grid-template-columns:1fr auto;
+    gap:var(--grid-gap);align-items:end;
+    margin-bottom:clamp(48px,7vh,72px);
+  }
+  .section-head__body{min-width:0}
+  .section-head h2{
+    font-size:clamp(34px,5vw,60px);font-weight:600;
+    letter-spacing:-0.025em;line-height:1.04;max-width:16ch;margin-top:16px;
+  }
+
+  /* ——— WORK / FILM ARCHIVE ——— */
+  .films{display:flex;flex-direction:column;gap:0}
+  .film{
+    display:grid;grid-template-columns:1.1fr 1fr;
+    gap:var(--grid-gap);align-items:center;
+    padding:clamp(40px,6vh,64px) 0;
+    border-top:1px solid var(--line);
+  }
+  .film:first-child{padding-top:0;border-top:none}
+  .film--reverse{grid-template-columns:1fr 1.1fr}
+  .film--reverse .film-visual{order:3}
+  .film--reverse .film-copy{order:2}
+  .film-visual{
+    position:relative;aspect-ratio:4/3;overflow:hidden;
+    background:var(--obsidian-2);
+  }
+  .film-visual img{
+    width:100%;height:100%;object-fit:cover;display:block;
+  }
+  .film-visual::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to top,rgba(9,9,11,0.5) 0%,transparent 45%);
+  }
+  .film-v1{
+    background:var(--obsidian-2);
+  }
+  .film-v2{
+    background:var(--obsidian-2);
+  }
+  .film-v3{
+    background:var(--obsidian-2);
+  }
+  .film-copy{display:flex;flex-direction:column;gap:14px}
+  .film-type{font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--ember-soft)}
+  .film-copy h3{font-size:clamp(26px,3.2vw,38px);font-weight:600;letter-spacing:-0.02em;line-height:1.1}
+  .film-desc{font-size:17px;color:var(--slate);line-height:1.6;max-width:38ch}
+  .film-meta{font-size:13px;color:var(--slate-2);letter-spacing:0.06em;margin-top:4px}
+
+  /* ——— STATEMENT + SERVICES ——— */
+  .statement{
+    position:relative;
+    overflow:hidden;
+    padding:clamp(80px,14vh,160px) 0 clamp(40px,6vh,64px);
+    text-align:center;
+    background:var(--obsidian-2);
+  }
+  #about .statement{padding-bottom:clamp(40px,6vh,64px)}
+  .statement-video{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;
+    opacity:0.72;
+    z-index:0;
+    pointer-events:none;
+  }
+  .statement-overlay{
+    position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:
+      linear-gradient(to bottom,rgba(9,9,11,0.42) 0%,rgba(9,9,11,0.22) 45%,rgba(9,9,11,0.38) 100%),
+      radial-gradient(ellipse at 50% 35%,rgba(240,120,47,0.08),rgba(9,9,11,0) 58%);
+  }
+  .statement-content{position:relative;z-index:2}
+  .statement p{
+    font-size:clamp(38px,6.5vw,88px);font-weight:600;
+    letter-spacing:-0.03em;line-height:1.02;max-width:14ch;margin:0 auto;
+  }
+  .statement p em{font-style:normal;color:var(--ember-soft)}
+  .statement .serif{
+    display:block;margin-top:28px;font-size:clamp(18px,2vw,22px);
+    color:var(--slate);font-style:italic;letter-spacing:0;
+  }
+
+  /* ——— CAPABILITIES ——— */
+  .services{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    border:1px solid var(--line);border-bottom:none;
+  }
+  .service{
+    padding:clamp(24px,3vh,32px);
+    border-right:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    display:flex;flex-direction:column;gap:12px;align-items:flex-start;
+  }
+  .service:nth-child(4n){border-right:none}
+  .service h3{font-size:clamp(18px,2vw,22px);font-weight:600;letter-spacing:-0.01em}
+  .service p{font-size:15px;color:var(--slate);line-height:1.55;max-width:none}
+
+  /* ——— CONTACT ——— */
+  .contact{
+    position:relative;padding:clamp(100px,16vh,180px) 0;
+    border-bottom:1px solid var(--line);overflow:hidden;
+  }
+  .contact-glow{
+    position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:min(900px,100%);height:420px;pointer-events:none;
+    background:radial-gradient(ellipse,rgba(240,120,47,0.16),transparent 72%);
+  }
+  .contact .inner{position:relative}
+  .contact .section-head{margin-bottom:clamp(32px,5vh,48px)}
+  .contact .section-head h2{max-width:none;margin-top:16px}
+  .contact .sub{font-size:18px;color:var(--slate);max-width:40ch;line-height:1.6}
+  .contact-grid{
+    display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
+    gap:clamp(40px,6vw,88px);align-items:start;
+  }
+  .contact-intro .email-link{margin-top:32px;display:inline-flex}
+  .contact-form{
+    display:flex;flex-direction:column;gap:24px;
+    padding:clamp(28px,4vw,40px);
+    background:rgba(16,16,20,0.72);
+    border:1px solid var(--line-2);
+    box-shadow:0 24px 80px rgba(0,0,0,0.28);
+  }
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .form-field{display:flex;flex-direction:column;gap:10px}
+  .form-field label{
+    font-size:12px;letter-spacing:0.14em;text-transform:uppercase;
+    color:var(--ember-soft);font-weight:600;
+  }
+  .form-field input,.form-field textarea,.form-field select{
+    width:100%;padding:14px 16px;
+    background:rgba(243,239,231,0.04);
+    border:1px solid var(--line-2);border-radius:2px;
+    color:var(--bone);
+    font-family:inherit;font-size:16px;outline:none;
+    transition:border-color .25s ease,background .25s ease,box-shadow .25s ease;
+  }
+  .form-field select{cursor:pointer;appearance:none}
+  .form-field select option{background:var(--obsidian-2);color:var(--bone)}
+  .form-field input::placeholder,.form-field textarea::placeholder{color:var(--slate)}
+  .form-field input:focus,.form-field textarea:focus,.form-field select:focus{
+    border-color:var(--ember-soft);
+    background:rgba(240,120,47,0.06);
+    box-shadow:0 0 0 1px rgba(240,120,47,0.18);
+  }
+  .form-field textarea{min-height:140px;resize:vertical;line-height:1.55}
+  .form-submit{
+    align-self:flex-start;margin-top:8px;
+    display:inline-flex;align-items:center;gap:10px;
+    font-size:14px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;
+    color:var(--obsidian);background:var(--ember-soft);border:none;
+    border-radius:2px;padding:15px 24px;
+    cursor:pointer;font-family:inherit;transition:all .25s ease;
+  }
+  .form-submit:hover:not(:disabled){background:var(--bone);color:var(--obsidian)}
+  .form-submit:disabled{opacity:0.55;cursor:not-allowed}
+  .form-submit::after{content:"→";transition:transform .25s ease}
+  .form-submit:hover:not(:disabled)::after{transform:translateX(4px)}
+  .form-status{font-size:15px;color:var(--slate);min-height:1.4em;margin-top:6px}
+  .form-status.is-success{color:var(--ember-soft)}
+  .form-status.is-error{color:#ff8a7a}
+  .form-honey{position:absolute;left:-9999px;opacity:0;pointer-events:none}
+
+  /* ——— FOOTER ——— */
+  footer{padding:48px 0 36px}
+  .foot{
+    display:flex;justify-content:space-between;align-items:center;
+    gap:20px;flex-wrap:wrap;font-size:13px;color:var(--slate-2);letter-spacing:0.03em;
+  }
+  .foot-brand{font-weight:600;letter-spacing:0.28em;color:var(--bone);font-size:13px}
+
+  /* ——— RESPONSIVE ——— */
+  @media(max-width:1100px){
+    .services{grid-template-columns:repeat(2,1fr)}
+    .service:nth-child(4n){border-right:1px solid var(--line)}
+    .service:nth-child(2n){border-right:none}
+  }
+  @media(max-width:900px){
+    .film,.film--reverse{grid-template-columns:1fr;gap:28px}
+    .film--reverse .film-visual,.film--reverse .film-copy{order:unset}
+    .section-head{grid-template-columns:1fr;gap:20px}
+  }
+  @media(max-width:720px){
+    .wrap,.nav-inner{padding:0 22px}
+    nav{padding:12px 0}
+    nav.scrolled{padding:10px 0}
+    .hero-content{padding:76px 0 80px}
+    .scroll-hint{
+      left:22px;transform:none;max-width:none;padding:0;bottom:28px;
+    }
+    .statement{text-align:left}
+    .statement p{max-width:none}
+    .contact-grid{grid-template-columns:1fr}
+    .form-row{grid-template-columns:1fr}
+    .services{grid-template-columns:1fr}
+    .service{border-right:none}
+  }
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .marquee--logos,.hero-light{animation:none}
+    .hero-video{display:none}
+    .statement-video{display:none}
+    .hero-scrim{
+      background:
+        radial-gradient(ellipse 90% 70% at 72% 18%,rgba(240,120,47,0.14),transparent 58%),
+        linear-gradient(180deg,#0C0C0E 0%,var(--obsidian) 55%,#070708 100%);
+    }
+    .reveal{opacity:1;transform:none;transition:none}
+    .loader .logo-word,.loader .logo-br,.loader .logo-tag{animation:none;opacity:1;transform:none}
+    .loader-flare{animation:none;opacity:0}
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "LocalBusiness"],
+      "@id": "https://ovationav.si/#org",
+      "name": "OVATION",
+      "url": "https://ovationav.si/",
+      "email": "info@ovationav.si",
+      "slogan": "V živo se zgodi zgolj enkrat.",
+      "description": "Videoprodukcijski studio iz Slovenije: snemanje koncertov, festivalov in konferenc, spletni prenosi v živo z več kamerami, korporativni in promocijski videi ter celovečerni filmi.",
+      "image": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
+      "knowsLanguage": ["sl", "en"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ljubljana",
+        "addressRegion": "Osrednjeslovenska",
+        "addressCountry": "SI"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Slovenija" },
+        { "@type": "Place", "name": "Evropa" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Storitve videoprodukcije",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje koncertov" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje festivalov in aftermovie" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje konferenc" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spletni prenosi v živo z več kamerami" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Korporativni video" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Promocijski video" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Celovečerni film in dokumentarec" } }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ovationav.si/#website",
+      "url": "https://ovationav.si/",
+      "name": "OVATION",
+      "inLanguage": "sl",
+      "publisher": { "@id": "https://ovationav.si/#org" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ovationav.si/ovation-home.html#webpage",
+      "url": "https://ovationav.si/ovation-home.html",
+      "name": "Videoprodukcija & snemanje dogodkov v živo — OVATION",
+      "inLanguage": "sl",
+      "isPartOf": { "@id": "https://ovationav.si/#website" },
+      "about": { "@id": "https://ovationav.si/#org" }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "OVATION — reel",
+      "description": "Izbor produkcijskih del studia OVATION: koncerti, festivali, konference in prenosi v živo.",
+      "thumbnailUrl": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
+      "uploadDate": "2026-01-01",
+      "contentUrl": "https://ovationav.si/assets/video/i_like_this_very_much_just_rem.mp4",
+      "publisher": { "@id": "https://ovationav.si/#org" }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Sanjska hči gora — koncertni video",
+      "description": "Snemanje koncerta v neokrnjeni naravi v Logarski dolini.",
+      "thumbnailUrl": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
+      "uploadDate": "2025-01-01",
+      "contentUrl": "https://ovationav.si/assets/video/i_like_this_very_much_just_rem.mp4",
+      "publisher": { "@id": "https://ovationav.si/#org" }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Žalska noč mladih — aftermovie",
+      "description": "Aftermovie nočnega festivalskega dogodka pod odprtim nebom.",
+      "thumbnailUrl": "https://ovationav.si/assets/images/zalska-noc-mladih.png",
+      "uploadDate": "2025-06-01",
+      "publisher": { "@id": "https://ovationav.si/#org" }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "11. Rokusfest akademija za razredni pouk — prenos konference v živo",
+      "description": "Večkamerni spletni prenos konference v živo za izobraževalce.",
+      "thumbnailUrl": "https://ovationav.si/assets/images/rokusfest.png",
+      "uploadDate": "2026-01-01",
+      "publisher": { "@id": "https://ovationav.si/#org" }
+    }
+  ]
+}
+</script>
+</head>
+<body class="is-loading">
+
+<div class="loader" id="loader" role="status" aria-live="polite" aria-busy="true">
+  <p class="sr-only">Nalaganje OVATION</p>
+  <div class="loader-inner">
+    <div class="loader-glow" aria-hidden="true"></div>
+    <div class="loader-flare" aria-hidden="true"></div>
+    <div class="logo-lock">
+      <span class="logo-br logo-tl" aria-hidden="true"></span>
+      <span class="logo-br logo-br-b" aria-hidden="true"></span>
+      <div class="logo-word">OVATION</div>
+    </div>
+    <div class="logo-tag">Brez ponovitev</div>
+  </div>
+</div>
+
+<nav id="nav">
+  <div class="nav-inner">
+  <a class="brand" href="#top" aria-label="OVATION home">
+    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 32" fill="none" aria-hidden="true">
+      <path d="M0 14 L0 0 L14 0" stroke="#F0782F" stroke-width="2" stroke-linecap="square"/>
+      <path d="M119 32 L133 32 L133 18" stroke="#F0782F" stroke-width="2" stroke-linecap="square"/>
+      <text font-family="'Archivo', system-ui, sans-serif" font-size="15" font-weight="600" fill="#F3EFE7" letter-spacing="0.3em">
+        <tspan x="18.5" y="20.5">OVATION</tspan>
+      </text>
+    </svg>
+  </a>
+  <div class="nav-links">
+    <a href="ovation-home-en.html" class="lang-switch" hreflang="en" lang="en">EN</a>
+    <a class="nav-cta" href="#contact">Začnimo projekt</a>
+  </div>
+  </div>
+</nav>
+
+<main id="main">
+<header class="hero" id="top">
+  <div class="hero-media" aria-hidden="true">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto">
+      <source src="assets/video/i_like_this_very_much_just_rem.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-atmosphere" aria-hidden="true"></div>
+  <div class="hero-light" aria-hidden="true"></div>
+  <div class="hero-falloff" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="wrap">
+      <h1>V živo se zgodi <em>zgolj enkrat.</em></h1>
+      <p class="lede">Produkcijsko poskrbimo za dogodke, ki vam pomenijo — snemamo koncerte, festivale, konference …<br>Za&nbsp;vedno ulovimo vse tiste pomembne trenutke pred aplavzom.</p>
+      <div class="hero-actions">
+        <a class="btn btn-ember btn-arrow" href="#reel">Oglej si reel</a>
+        <a class="btn btn-ghost btn-arrow" href="#work">Izbrano delo</a>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">Pomakni se</div>
+</header>
+
+<section class="clients" aria-label="Stranke">
+  <div class="lbl">Zaupajo nam</div>
+  <div class="marquee--logos">
+    <ul class="client-logos">
+      <li><img src="assets/clients/iskra-medical.png" alt="Iskra Medical" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/moonlighting.png" alt="Moonlighting" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/chili.svg" alt="Chili" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/mcz.png" alt="MCZ" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/dega.png" alt="Dega" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/digital3.png" alt="Digital3" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/klon.jpeg" alt="Klon" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/km-instalacije.png" alt="KM Instalacije" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/studentski-klub-zalec.png" alt="Študentski klub Žalec" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/ansambel-dar.jpg" alt="Ansambel Dar" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/center-rinka.png" alt="Center Rinka" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/rokusfest.jpg" alt="Rokusfest" loading="lazy" decoding="async"></li>
+    </ul>
+    <ul class="client-logos" aria-hidden="true">
+      <li><img src="assets/clients/iskra-medical.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/moonlighting.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/chili.svg" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/mcz.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/dega.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/digital3.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/klon.jpeg" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/km-instalacije.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/studentski-klub-zalec.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/ansambel-dar.jpg" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/center-rinka.png" alt="" loading="lazy" decoding="async"></li>
+      <li><img src="assets/clients/rokusfest.jpg" alt="" loading="lazy" decoding="async"></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section block" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-head__body">
+        <span class="eyebrow">Izbrano delo</span>
+        <h2>Najlepše trenutke naredimo brezčasne.</h2>
+      </div>
+      <a class="btn btn-ghost btn-arrow" href="#contact">Vsi projekti</a>
+    </div>
+
+    <div class="films">
+      <article class="film reveal">
+        <div class="film-visual film-v1">
+          <img src="assets/images/sanjska-hci-gora.png" alt="Sanjska hči gora — koncertni posnetek" loading="lazy">
+        </div>
+        <div class="film-copy">
+          <span class="film-type">Koncertni video</span>
+          <h3>Sanjska hči gora</h3>
+          <p class="film-desc">Ko v najlepši sceni zadoni prva nota orkestra, ko pevci stopijo pred mikrofone. Takrat ujamemo občutek, ki ga čutijo poslušalci tako v živo kot pred TV sprejemniki, in ga naredimo večnega.</p>
+          <span class="film-meta">Logarska dolina · Snemanje koncerta v neokrnjeni naravi</span>
+        </div>
+      </article>
+
+      <article class="film film--reverse reveal">
+        <div class="film-visual film-v2">
+          <img src="assets/images/zalska-noc-mladih.png" alt="Žalska noč mladih — aftermovie" loading="lazy">
+        </div>
+        <div class="film-copy">
+          <span class="film-type">Aftermovie</span>
+          <h3>Žalska noč mladih</h3>
+          <p class="film-desc">Noč pod odprtim nebom, energija, ki ne bo izginila.</p>
+          <span class="film-meta">2025</span>
+        </div>
+      </article>
+
+      <article class="film reveal">
+        <div class="film-visual film-v3">
+          <img src="assets/images/rokusfest.png" alt="11. Rokusfest akademija za razredni pouk — prenos v živo" loading="lazy">
+        </div>
+        <div class="film-copy">
+          <span class="film-type">Prenos konference v živo</span>
+          <h3>11. Rokusfest akademija za razredni pouk</h3>
+          <p class="film-desc">Ideje odličnih govorcev, namenjene skupini učiteljev na konferenci, so presegle meje sobe in dosegle tudi učitelje doma.</p>
+          <span class="film-meta">2026</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section block" id="about">
+  <div class="wrap">
+    <div class="statement reveal" id="reel">
+      <video class="statement-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+        <source src="ovation bg.mp4" type="video/mp4">
+      </video>
+      <div class="statement-overlay" aria-hidden="true"></div>
+      <div class="statement-content">
+        <p>En dogodek. En posnetek. <em>Ohranjeno za vedno.</em></p>
+        <span class="serif">Zamrznjen trenutek tik pred aplavzom.</span>
+      </div>
+    </div>
+
+    <div class="services reveal">
+      <div class="service">
+        <h3>Koncerti</h3>
+        <p>Snemanje koncertov — posnet koncert, noč, ki jo za oboževalce ohranimo z občutkom in estetiko.</p>
+      </div>
+      <div class="service">
+        <h3>Festivali</h3>
+        <p>Dogajanje na odru, festivalni momenti spremenjeni v film, ki pokaže festival v luči, kot si ga zasluži.</p>
+      </div>
+      <div class="service">
+        <h3>Aftermovies</h3>
+        <p>Kratek posnetek festivalskega dogajanja — narejen za spomine.</p>
+      </div>
+      <div class="service">
+        <h3>Konference</h3>
+        <p>Snemanje konferenc: govorci in predavanja, ujeti v objektiv s težo, ki si jo zaslužijo.</p>
+      </div>
+      <div class="service">
+        <h3>Prenosi v živo</h3>
+        <p>Spletni prenos v živo z več kamerami: atmosfero dogodka ponesemo izven sobe — do ljudi, ki se niso mogli pridružiti v živo.</p>
+      </div>
+      <div class="service">
+        <h3>Korporativni videi</h3>
+        <p>Vrednote, kultura in vizija vašega podjetja na platnu.</p>
+      </div>
+      <div class="service">
+        <h3>Promocijski videi</h3>
+        <p>Produkt ali storitev z videom predstavljena ciljni publiki na prijeten in zanimiv način.</p>
+      </div>
+      <div class="service">
+        <h3>Filmi</h3>
+        <p>Ustvarjen in zaključen film, ki počasti realni trenutek.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="contact-glow" aria-hidden="true"></div>
+  <div class="wrap inner reveal">
+    <div class="section-head">
+      <div class="section-head__body">
+        <span class="eyebrow">Začnimo projekt</span>
+        <h2>Imate neponovljiv dogodek?</h2>
+      </div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <p class="sub">Povejte nam več in skupaj bomo povedali vašo brezčasno zgodbo.</p>
+        <a class="btn btn-ghost email-link" href="mailto:info@ovationav.si">info@ovationav.si</a>
+        <p class="sub" style="margin-top:18px;font-size:14px;color:var(--slate-2)">Videoprodukcija v Ljubljani — snemamo dogodke po vsej Sloveniji in EU.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/info@ovationav.si" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="Nova povpraševanja — OVATION">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="form-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Ime</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="Vaše ime">
+          </div>
+          <div class="form-field">
+            <label for="email">E-pošta</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="ime@podjetje.si">
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="event-type">Vrsta dogodka</label>
+          <select id="event-type" name="event_type" required>
+            <option value="" disabled selected>Izberite vrsto dogodka</option>
+            <option value="Koncert">Koncert</option>
+            <option value="Festival">Festival</option>
+            <option value="Konferenca">Konferenca</option>
+            <option value="Korporativno">Korporativno</option>
+            <option value="Drugo">Drugo</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Sporočilo</label>
+          <textarea id="message" name="message" required placeholder="Kratek opis dogodka, datum in lokacija …"></textarea>
+        </div>
+
+        <button class="form-submit" type="submit">Pošlji povpraševanje</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span class="foot-brand">OVATION</span>
+    <span>V živo se zgodi zgolj enkrat.</span>
+    <span>© 2026 · Slovenia</span>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById("nav");
+  const loader = document.getElementById("loader");
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 40));
+
+  function finishLoading() {
+    if (!loader || loader.classList.contains("is-done")) return;
+    loader.classList.add("is-done");
+    loader.setAttribute("aria-busy", "false");
+    document.body.classList.remove("is-loading");
+    setTimeout(() => loader.remove(), 700);
+  }
+
+  const loaderMinMs = motionQuery.matches ? 400 : 2400;
+  const loaderStart = Date.now();
+  let loaderFinished = false;
+
+  function tryFinishLoading() {
+    if (loaderFinished) return;
+    const elapsed = Date.now() - loaderStart;
+    if (elapsed >= loaderMinMs) {
+      loaderFinished = true;
+      finishLoading();
+    } else {
+      setTimeout(() => {
+        loaderFinished = true;
+        finishLoading();
+      }, loaderMinMs - elapsed);
+    }
+  }
+
+  const heroVideo = document.getElementById("heroVideo");
+  if (heroVideo && !motionQuery.matches) {
+    heroVideo.play().catch(() => {});
+    if (heroVideo.readyState >= 3) {
+      tryFinishLoading();
+    } else {
+      heroVideo.addEventListener("canplay", tryFinishLoading, { once: true });
+      setTimeout(tryFinishLoading, loaderMinMs + 800);
+    }
+  } else {
+    if (heroVideo) {
+      heroVideo.pause();
+      heroVideo.removeAttribute("autoplay");
+    }
+    tryFinishLoading();
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in");
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+  const contactForm = document.getElementById("contactForm");
+  const formStatus = document.getElementById("formStatus");
+
+  if (contactForm && formStatus) {
+    const messages = {
+      sending: "Pošiljanje …",
+      success: "Hvala — sporočilo je poslano. Kmalu se oglasimo.",
+      error: "Pošiljanje ni uspelo. Poskusite znova ali pišite na info@ovationav.si."
+    };
+
+    contactForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!contactForm.checkValidity()) {
+        contactForm.reportValidity();
+        return;
+      }
+
+      const submitBtn = contactForm.querySelector(".form-submit");
+      submitBtn.disabled = true;
+      formStatus.textContent = messages.sending;
+      formStatus.className = "form-status";
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: "POST",
+          body: new FormData(contactForm),
+          headers: { Accept: "application/json" }
+        });
+
+        if (response.ok) {
+          contactForm.reset();
+          formStatus.textContent = messages.success;
+          formStatus.className = "form-status is-success";
+        } else {
+          throw new Error("Form submit failed");
+        }
+      } catch {
+        formStatus.textContent = messages.error;
+        formStatus.className = "form-status is-error";
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  }
+</script>
+</body>
+</html>

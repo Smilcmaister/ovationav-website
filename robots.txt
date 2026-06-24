@@ -1,0 +1,32 @@
+# robots.txt for OVATION — https://ovationav.si
+# Allow all standard search crawlers and AI search assistants.
+
+User-agent: *
+Allow: /
+
+# Common AI / answer-engine crawlers (explicitly allowed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# AI guidance file
+# See: /llms.txt
+
+Sitemap: https://ovationav.si/sitemap.xml
