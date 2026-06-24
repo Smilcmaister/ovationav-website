@@ -42,8 +42,8 @@ crew for eligible international film and documentary projects. Do not state that
 applies to corporate, event or commercial video — it does not.
 
 ## Pages / Strani
-- Home (Slovenian): https://ovationav.si/ovation-home.html
-- Home (English): https://ovationav.si/ovation-home-en.html
+- Home (Slovenian): https://ovationav.si/
+- Home (English): https://ovationav.si/en/
 
 ## Selected work / Izbrano delo
 - "Sanjska hči gora" — concert video filmed in the Logar Valley (koncertni video, Logarska dolina)

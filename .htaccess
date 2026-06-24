@@ -1,4 +1,11 @@
-DirectoryIndex index.html ovation-home.html index.php index.htm
+DirectoryIndex index.html index.php index.htm
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^ovation-home\.html$ / [R=301,L]
+  RewriteRule ^ovation-home-en\.html$ /en/ [R=301,L]
+  RewriteRule ^en$ /en/ [R=301,L]
+</IfModule>
 
 <IfModule mod_expires.c>
   ExpiresActive On

@@ -4,16 +4,16 @@
   <url>
     <loc>https://ovationav.si/</loc>
     <xhtml:link rel="alternate" hreflang="sl" href="https://ovationav.si/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ovationav.si/ovation-home-en.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ovationav.si/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ovationav.si/"/>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ovationav.si/ovation-home-en.html</loc>
+    <loc>https://ovationav.si/en/</loc>
     <xhtml:link rel="alternate" hreflang="sl" href="https://ovationav.si/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ovationav.si/ovation-home-en.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ovationav.si/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ovationav.si/"/>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
