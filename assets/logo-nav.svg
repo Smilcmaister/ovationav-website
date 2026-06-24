@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 32" fill="none" role="img" aria-label="OVATION">
-  <title>OVATION</title>
-  <path d="M0 14 L0 0 L14 0" stroke="#F0782F" stroke-width="2" stroke-linecap="square"/>
-  <path d="M119 32 L133 32 L133 18" stroke="#F0782F" stroke-width="2" stroke-linecap="square"/>
-  <text font-family="'Archivo', system-ui, sans-serif" font-size="15" font-weight="600" fill="#F3EFE7" letter-spacing="0.3em">
-    <tspan x="18.5" y="20.5">OVATION</tspan>
-  </text>
-</svg>

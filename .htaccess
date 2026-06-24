@@ -5,6 +5,7 @@ DirectoryIndex index.html index.php index.htm
   RewriteRule ^ovation-home\.html$ / [R=301,L]
   RewriteRule ^ovation-home-en\.html$ /en/ [R=301,L]
   RewriteRule ^en$ /en/ [R=301,L]
+  RewriteRule ^ovation\ bg\.mp4$ /assets/video/ovation-bg.mp4 [R=301,L]
 </IfModule>
 
 <IfModule mod_expires.c>
