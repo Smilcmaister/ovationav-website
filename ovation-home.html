@@ -397,8 +397,11 @@
     display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
     gap:clamp(40px,6vw,88px);align-items:start;
   }
-  .contact-intro .email-link{margin-top:32px;display:inline-flex}
-  .contact-intro .phone-link{margin-top:12px;display:inline-flex}
+  .contact-details{
+    display:flex;flex-direction:column;align-items:flex-start;gap:12px;
+    margin-top:32px;
+  }
+  .contact-intro .email-link,.contact-intro .phone-link{display:inline-flex;margin-top:0}
   .contact-form{
     display:flex;flex-direction:column;gap:24px;
     padding:clamp(28px,4vw,40px);
@@ -639,13 +642,8 @@
     <div class="wrap">
       <h1>V živo se zgodi <em>zgolj enkrat.</em></h1>
       <p class="lede">Produkcijsko poskrbimo za dogodke, ki vam pomenijo — snemamo koncerte, festivale, konference …<br>Za&nbsp;vedno ulovimo vse tiste pomembne trenutke pred aplavzom.</p>
-      <div class="hero-actions">
-        <a class="btn btn-ember btn-arrow" href="#reel">Oglej si reel</a>
-        <a class="btn btn-ghost btn-arrow" href="#work">Izbrano delo</a>
-      </div>
     </div>
   </div>
-  <div class="scroll-hint" aria-hidden="true">Pomakni se</div>
 </header>
 
 <section class="clients" aria-label="Stranke">
@@ -686,10 +684,8 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div class="section-head__body">
-        <span class="eyebrow">Izbrano delo</span>
         <h2>Najlepše trenutke naredimo brezčasne.</h2>
       </div>
-      <a class="btn btn-ghost btn-arrow" href="#contact">Vsi projekti</a>
     </div>
 
     <div class="films">
@@ -701,7 +697,6 @@
           <span class="film-type">Koncertni video</span>
           <h3>Sanjska hči gora</h3>
           <p class="film-desc">Ko v najlepši sceni zadoni prva nota orkestra, ko pevci stopijo pred mikrofone. Takrat ujamemo občutek, ki ga čutijo poslušalci tako v živo kot pred TV sprejemniki, in ga naredimo večnega.</p>
-          <span class="film-meta">Logarska dolina · Snemanje koncerta v neokrnjeni naravi</span>
         </div>
       </article>
 
@@ -713,7 +708,6 @@
           <span class="film-type">Aftermovie</span>
           <h3>Žalska noč mladih</h3>
           <p class="film-desc">Noč pod odprtim nebom, energija, ki ne bo izginila.</p>
-          <span class="film-meta">2025</span>
         </div>
       </article>
 
@@ -725,7 +719,6 @@
           <span class="film-type">Prenos konference v živo</span>
           <h3>11. Rokusfest akademija za razredni pouk</h3>
           <p class="film-desc">Ideje odličnih govorcev, namenjene skupini učiteljev na konferenci, so presegle meje sobe in dosegle tudi učitelje doma.</p>
-          <span class="film-meta">2026</span>
         </div>
       </article>
     </div>
@@ -794,8 +787,10 @@
     <div class="contact-grid">
       <div class="contact-intro">
         <p class="sub">Povejte nam več in skupaj bomo povedali vašo brezčasno zgodbo.</p>
-        <a class="btn btn-ghost email-link" href="mailto:info@ovationav.si">info@ovationav.si</a>
-        <a class="btn btn-ghost phone-link" href="tel:+38670481811">070 481 811</a>
+        <div class="contact-details">
+          <a class="btn btn-ghost email-link" href="mailto:info@ovationav.si">info@ovationav.si</a>
+          <a class="btn btn-ghost phone-link" href="tel:+38670481811">070 481 811</a>
+        </div>
         <p class="sub" style="margin-top:18px;font-size:14px;color:var(--slate-2)">Videoprodukcija v Ljubljani — snemamo dogodke po vsej Sloveniji in EU.</p>
       </div>
 

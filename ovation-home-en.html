@@ -397,8 +397,11 @@
     display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
     gap:clamp(40px,6vw,88px);align-items:start;
   }
-  .contact-intro .email-link{margin-top:32px;display:inline-flex}
-  .contact-intro .phone-link{margin-top:12px;display:inline-flex}
+  .contact-details{
+    display:flex;flex-direction:column;align-items:flex-start;gap:12px;
+    margin-top:32px;
+  }
+  .contact-intro .email-link,.contact-intro .phone-link{display:inline-flex;margin-top:0}
   .contact-form{
     display:flex;flex-direction:column;gap:24px;
     padding:clamp(28px,4vw,40px);
@@ -638,13 +641,8 @@
     <div class="wrap">
       <h1>Live happens <em>once.</em></h1>
       <p class="lede">We film the nights that matter — concerts, festivals, conferences, and the moments before the applause. Carried beyond the room. Kept forever.</p>
-      <div class="hero-actions">
-        <a class="btn btn-ember btn-arrow" href="#reel">Watch the reel</a>
-        <a class="btn btn-ghost btn-arrow" href="#work">Selected work</a>
-      </div>
     </div>
   </div>
-  <div class="scroll-hint" aria-hidden="true">Scroll</div>
 </header>
 
 <section class="clients" aria-label="Clients">
@@ -685,10 +683,8 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div>
-        <span class="eyebrow">Selected work</span>
         <h2>A few nights we made permanent.</h2>
       </div>
-      <a class="btn btn-ghost btn-arrow" href="#contact">All projects</a>
     </div>
 
     <div class="films">
@@ -700,7 +696,6 @@
           <span class="film-type">Concert video</span>
           <h3>Sanjska hči gora</h3>
           <p class="film-desc">When the first note of the orchestra rings out in a breathtaking setting and the singers step up to the microphones — that's when we capture the feeling shared by audiences in the room and at home, and make it permanent.</p>
-          <span class="film-meta">Logarska Valley · Concert filmed in unspoiled nature</span>
         </div>
       </article>
 
@@ -712,7 +707,6 @@
           <span class="film-type">Aftermovie</span>
           <h3>Žalska noč mladih</h3>
           <p class="film-desc">A night under open sky — energy that won't fade away.</p>
-          <span class="film-meta">2025</span>
         </div>
       </article>
 
@@ -724,7 +718,6 @@
           <span class="film-type">Live conference broadcast</span>
           <h3>11th Rokusfest Academy for Classroom Teaching</h3>
           <p class="film-desc">Ideas from outstanding speakers, shared with a room full of teachers, reached beyond the hall — and found teachers at home too.</p>
-          <span class="film-meta">2026</span>
         </div>
       </article>
     </div>
@@ -781,8 +774,10 @@
         <span class="eyebrow">Start a project</span>
         <h2>Got a night that can't be repeated?</h2>
         <p class="sub">Tell us about the event. We'll find the story in it — and make sure it lasts.</p>
-        <a class="btn btn-ghost email-link" href="mailto:info@ovationav.si">info@ovationav.si</a>
-        <a class="btn btn-ghost phone-link" href="tel:+38670481811">070 481 811</a>
+        <div class="contact-details">
+          <a class="btn btn-ghost email-link" href="mailto:info@ovationav.si">info@ovationav.si</a>
+          <a class="btn btn-ghost phone-link" href="tel:+38670481811">070 481 811</a>
+        </div>
         <p class="sub" style="margin-top:18px;font-size:14px;color:var(--slate-2)">Video production based in Ljubljana — filming events across Slovenia and the EU.</p>
       </div>
 
