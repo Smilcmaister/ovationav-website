@@ -3,3 +3,4 @@
 *.log
 Video editing/
 clients/
+!assets/clients/

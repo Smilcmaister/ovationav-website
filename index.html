@@ -2,20 +2,11 @@
 <html lang="sl" class="no-js">
 <script>document.documentElement.classList.replace('no-js','js')</script>
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KGDBDWXLHE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-KGDBDWXLHE');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Videoprodukcija &amp; snemanje dogodkov v živo — OVATION | Slovenija</title>
 <meta name="description" content="Videoprodukcijski studio OVATION: snemanje koncertov, festivalov in konferenc po vsej Sloveniji, spletni prenosi v živo z več kamerami ter korporativni in promocijski videi. Začnimo vaš projekt.">
-<meta name="keywords" content="videoprodukcija, snemanje dogodkov, snemanje koncertov, snemanje konferenc, spletni prenosi v živo, live streaming Slovenija, korporativni video, promocijski video, videograf Ljubljana, video produkcija Ljubljana, aftermovie">
 <meta name="author" content="OVATION">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://ovationav.si/">
@@ -33,14 +24,14 @@
 <meta property="og:title" content="Videoprodukcija &amp; snemanje dogodkov v živo — OVATION | Slovenija">
 <meta property="og:description" content="Snemanje koncertov, festivalov in konferenc po vsej Sloveniji, spletni prenosi v živo z več kamerami ter korporativni in promocijski videi.">
 <meta property="og:url" content="https://ovationav.si/">
-<meta property="og:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.png">
+<meta property="og:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.webp">
 <meta property="og:image:alt" content="OVATION — snemanje koncerta v naravi">
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Videoprodukcija &amp; snemanje dogodkov v živo — OVATION">
 <meta name="twitter:description" content="Snemanje koncertov, festivalov in konferenc po vsej Sloveniji, prenosi v živo, korporativni in promocijski videi.">
-<meta name="twitter:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.png">
+<meta name="twitter:image" content="https://ovationav.si/assets/images/sanjska-hci-gora.webp">
 
 <meta name="theme-color" content="#09090B">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -49,16 +40,13 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <style>
   :root{
     --obsidian:#09090B;
     --obsidian-2:#101014;
     --bone:#F3EFE7;
     --slate:#9A948B;
-    --slate-2:#6A665F;
+    --slate-2:#AAA49B;
     --ember:#F0782F;
     --ember-soft:#FFAB66;
     --line:rgba(243,239,231,0.10);
@@ -86,7 +74,7 @@
     color:var(--ember-soft);font-weight:500;
   }
   .reveal{opacity:1;transform:none}
-  html.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}
+  html.js .reveal{opacity:1;transform:none}
   html.js .reveal.in{opacity:1;transform:none}
   body.is-loading{overflow:hidden}
 
@@ -501,8 +489,8 @@
   @media(prefers-reduced-motion:reduce){
     html{scroll-behavior:auto}
     .marquee--logos,.hero-light{animation:none}
-    .hero-video{display:none}
-    .statement-video{display:none}
+    .hero-video{display:block}
+    .statement-video{display:block}
     .hero-scrim{
       background:
         radial-gradient(ellipse 90% 70% at 72% 18%,rgba(240,120,47,0.14),transparent 58%),
@@ -512,106 +500,50 @@
     .loader .logo-word,.loader .logo-br,.loader .logo-tag{animation:none;opacity:1;transform:none}
     .loader-flare{animation:none;opacity:0}
   }
-</style>
+
+  .motion-toggle{position:absolute;right:24px;bottom:20px;z-index:8;padding:10px 14px;border:1px solid var(--slate);border-radius:4px;background:#09090be6;color:var(--bone);font:inherit;font-size:12px;cursor:pointer}
+  .motion-toggle[hidden]{display:none}
+  .motion-paused *, .motion-paused *::before, .motion-paused *::after{animation-play-state:paused!important}
+  :focus-visible{outline:2px solid var(--ember-soft);outline-offset:5px}
+  .hero .eyebrow{margin-bottom:20px}
+.footer-links{position:static;inset:auto;z-index:auto;padding:0 24px 30px;max-width:var(--maxw);margin:auto;display:flex;flex-wrap:wrap;gap:16px 28px;border:0}.footer-links a{font-size:14px;color:var(--bone);text-decoration:underline;text-underline-offset:4px}.service a{text-decoration:underline;text-underline-offset:4px}section[id]{scroll-margin-top:90px}.skip-link{position:absolute;top:0;left:16px;transform:translateY(-160%);z-index:1000;padding:12px;background:var(--bone);color:var(--obsidian)}.skip-link:focus{transform:translateY(0)}.btn-primary{background:var(--ember-soft);color:var(--obsidian);border:1px solid var(--ember-soft);padding:14px 22px;min-height:48px;line-height:1.4;text-decoration:none;font-weight:600;max-width:100%;text-align:center}.btn-primary:hover{background:var(--bone);border-color:var(--bone);color:var(--obsidian)}.btn-primary:focus-visible{outline:2px solid var(--bone);outline-offset:4px}.form-field{min-width:0}.form-field input{min-width:0;width:100%}</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+      "@type": "Organization",
       "@id": "https://ovationav.si/#org",
-      "name": "OVATION",
+      "name": "Ovation",
       "url": "https://ovationav.si/",
       "email": "info@ovationav.si",
-      "telephone": "+38670481811",
-      "slogan": "V živo se zgodi zgolj enkrat.",
-      "description": "Videoprodukcijski studio v Sloveniji, specializiran za dogodke v živo: snemanje koncertov, festivalov in konferenc, spletni prenosi v živo z več kamerami, korporativni in promocijski videi ter celovečerni filmi.",
-      "image": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
-      "knowsLanguage": ["sl", "en"],
-      "priceRange": "€€",
-      "serviceType": [
-        "Snemanje koncertov",
-        "Snemanje festivalov in aftermovie",
-        "Snemanje konferenc",
-        "Spletni prenosi v živo z več kamerami",
-        "Korporativni video",
-        "Promocijski video",
-        "Celovečerni filmi in dokumentarci"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Ljubljana",
-        "addressRegion": "Osrednjeslovenska",
-        "addressCountry": "SI"
-      },
-      "areaServed": [
-        { "@type": "Country", "name": "Slovenija" },
-        { "@type": "Place", "name": "Evropa" }
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Storitve videoprodukcije",
-        "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje koncertov" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje festivalov in aftermovie" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snemanje konferenc" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spletni prenosi v živo z več kamerami" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Korporativni video" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Promocijski video" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Celovečerni film in dokumentarec" } }
-        ]
-      }
+      "telephone": "+38670481811"
     },
     {
       "@type": "WebSite",
       "@id": "https://ovationav.si/#website",
       "url": "https://ovationav.si/",
-      "name": "OVATION",
-      "inLanguage": "sl",
-      "publisher": { "@id": "https://ovationav.si/#org" }
+      "name": "Ovation",
+      "inLanguage": [
+        "sl",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://ovationav.si/#org"
+      }
     },
     {
       "@type": "WebPage",
       "@id": "https://ovationav.si/#webpage",
       "url": "https://ovationav.si/",
-      "name": "Videoprodukcija & snemanje dogodkov v živo — OVATION",
+      "name": "Ovation – snemanje dogodkov in prenosi v živo",
       "inLanguage": "sl",
-      "isPartOf": { "@id": "https://ovationav.si/#website" },
-      "about": { "@id": "https://ovationav.si/#org" }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "OVATION — reel",
-      "description": "Izbor produkcijskih del studia OVATION: koncerti, festivali, konference in prenosi v živo.",
-      "thumbnailUrl": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
-      "uploadDate": "2026-01-01",
-      "contentUrl": "https://ovationav.si/assets/video/i_like_this_very_much_just_rem.mp4",
-      "publisher": { "@id": "https://ovationav.si/#org" }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "Sanjska hči gora — koncertni video",
-      "description": "Snemanje koncerta v neokrnjeni naravi v Logarski dolini.",
-      "thumbnailUrl": "https://ovationav.si/assets/images/sanjska-hci-gora.png",
-      "uploadDate": "2025-01-01",
-      "contentUrl": "https://ovationav.si/assets/video/i_like_this_very_much_just_rem.mp4",
-      "publisher": { "@id": "https://ovationav.si/#org" }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "Žalska noč mladih — aftermovie",
-      "description": "Aftermovie nočnega festivalskega dogodka pod odprtim nebom.",
-      "thumbnailUrl": "https://ovationav.si/assets/images/zalska-noc-mladih.png",
-      "uploadDate": "2025-06-01",
-      "publisher": { "@id": "https://ovationav.si/#org" }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "11. Rokusfest akademija za razredni pouk — prenos konference v živo",
-      "description": "Večkamerni spletni prenos konference v živo za izobraževalce.",
-      "thumbnailUrl": "https://ovationav.si/assets/images/rokusfest.png",
-      "uploadDate": "2026-01-01",
-      "publisher": { "@id": "https://ovationav.si/#org" }
+      "isPartOf": {
+        "@id": "https://ovationav.si/#website"
+      },
+      "about": {
+        "@id": "https://ovationav.si/#org"
+      }
     }
   ]
 }
@@ -619,22 +551,8 @@
 <noscript>
   <style>.loader{display:none!important}body.is-loading{overflow:visible}</style>
 </noscript>
-</head>
-<body class="is-loading">
-
-<div class="loader" id="loader" role="status" aria-live="polite" aria-busy="true">
-  <p class="sr-only">Nalaganje OVATION</p>
-  <div class="loader-inner">
-    <div class="loader-glow" aria-hidden="true"></div>
-    <div class="loader-flare" aria-hidden="true"></div>
-    <div class="logo-lock">
-      <span class="logo-br logo-tl" aria-hidden="true"></span>
-      <span class="logo-br logo-br-b" aria-hidden="true"></span>
-      <div class="logo-word">OVATION</div>
-    </div>
-    <div class="logo-tag">Brez ponovitev</div>
-  </div>
-</div>
+<link rel="stylesheet" href="/assets/fonts/fonts-v2.css"><link rel="stylesheet" href="/assets/privacy-v1.css"></head>
+<body><a class="skip-link" href="#main">Preskoči na vsebino</a>
 
 <nav id="nav">
   <div class="nav-inner">
@@ -657,8 +575,8 @@
 <main id="main">
 <header class="hero" id="top">
   <div class="hero-media" aria-hidden="true">
-    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto">
-      <source src="assets/video/i_like_this_very_much_just_rem.mp4" type="video/mp4">
+    <video class="hero-video" id="heroVideo" poster="/assets/images/sanjska-hci-gora.webp" muted loop playsinline preload="none">
+      <source data-src="assets/video/i_like_this_very_much_just_rem.mp4" type="video/mp4">
     </video>
   </div>
   <div class="hero-scrim" aria-hidden="true"></div>
@@ -668,11 +586,13 @@
 
   <div class="hero-content">
     <div class="wrap">
-      <span class="sr-only">Videoprodukcija Ljubljana — snemanje dogodkov v živo</span>
+      <p class="eyebrow">Snemanje dogodkov in prenosi v živo</p>
       <h1>V živo se zgodi <em>zgolj enkrat.</em></h1>
       <p class="lede">Produkcijsko poskrbimo za dogodke, ki vam pomenijo — snemamo koncerte, festivale, konference …<br>Za&nbsp;vedno ulovimo vse tiste pomembne trenutke pred aplavzom.</p>
+      <a class="btn btn-primary" style="margin-top:24px" href="#contact">Povejte nam o dogodku</a>
     </div>
   </div>
+  <button class="motion-toggle" type="button" data-motion-toggle hidden></button>
 </header>
 
 <section class="clients" aria-label="Stranke">
@@ -720,33 +640,33 @@
     <div class="films">
       <article class="film reveal">
         <div class="film-visual film-v1">
-          <img src="assets/images/sanjska-hci-gora.png" alt="Sanjska hči gora — koncertni posnetek" loading="lazy">
+          <img src="assets/images/sanjska-hci-gora.webp" alt="Sanjska hči gora — koncertni posnetek" loading="lazy">
         </div>
         <div class="film-copy">
           <span class="film-type">Koncertni video</span>
-          <h3>Sanjska hči gora</h3>
+          <h3><a href="/projekti/sanjska-hci-gora/">Sanjska hči gora →</a></h3>
           <p class="film-desc">Ko v najlepši sceni zadoni prva nota orkestra, ko pevci stopijo pred mikrofone. Takrat ujamemo občutek, ki ga čutijo poslušalci tako v živo kot pred TV sprejemniki, in ga naredimo večnega.</p>
         </div>
       </article>
 
       <article class="film film--reverse reveal">
         <div class="film-visual film-v2">
-          <img src="assets/images/zalska-noc-mladih.png" alt="Žalska noč mladih — aftermovie" loading="lazy">
+          <img src="assets/images/zalska-noc-mladih.webp" alt="Žalska noč mladih — aftermovie" loading="lazy">
         </div>
         <div class="film-copy">
           <span class="film-type">Aftermovie</span>
-          <h3>Žalska noč mladih</h3>
+          <h3><a href="/projekti/zalska-noc-mladih/">Žalska noč mladih →</a></h3>
           <p class="film-desc">Noč pod odprtim nebom, energija, ki ne bo izginila.</p>
         </div>
       </article>
 
       <article class="film reveal">
         <div class="film-visual film-v3">
-          <img src="assets/images/rokusfest.png" alt="11. Rokusfest akademija za razredni pouk — prenos v živo" loading="lazy">
+          <img src="assets/images/rokusfest.webp" alt="Rokusova akademija — prenos v živo" loading="lazy">
         </div>
         <div class="film-copy">
           <span class="film-type">Prenos konference v živo</span>
-          <h3>11. Rokusfest akademija za razredni pouk</h3>
+          <h3><a href="/projekti/rokusova-akademija/">Rokusova akademija →</a></h3>
           <p class="film-desc">Ideje odličnih govorcev, namenjene skupini učiteljev na konferenci, so presegle meje sobe in dosegle tudi učitelje doma.</p>
         </div>
       </article>
@@ -757,9 +677,10 @@
 <section class="section block" id="about">
   <div class="wrap">
     <div class="statement reveal" id="reel">
-      <video class="statement-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
-        <source src="/assets/video/ovation-bg.mp4" type="video/mp4">
+      <video class="statement-video" poster="/assets/images/zalska-noc-mladih.webp" muted loop playsinline preload="none" aria-hidden="true">
+        <source data-src="/assets/video/ovation-bg.mp4" type="video/mp4">
       </video>
+      <button class="motion-toggle" type="button" data-motion-toggle hidden></button>
       <div class="statement-overlay" aria-hidden="true"></div>
       <div class="statement-content">
         <p>En dogodek. En posnetek. <em>Ohranjeno za vedno.</em></p>
@@ -768,8 +689,9 @@
     </div>
 
     <div class="services reveal">
+      <div class="service"><h3><a href="/storitve/snemanje-dogodkov/">Snemanje dogodkov →</a></h3><p>Celoten posnetek, aftermovie ali izbrani trenutki. Oglejte si možnosti in podatke, ki jih potrebujemo za ponudbo.</p></div>
       <div class="service">
-        <h3>Koncerti</h3>
+        <h3><a href="/storitve/snemanje-koncertov/">Snemanje koncertov →</a></h3>
         <p>Snemanje koncertov — posnet koncert, noč, ki jo za oboževalce ohranimo z občutkom in estetiko.</p>
       </div>
       <div class="service">
@@ -781,11 +703,11 @@
         <p>Kratek posnetek festivalskega dogajanja — narejen za spomine.</p>
       </div>
       <div class="service">
-        <h3>Konference</h3>
+        <h3><a href="/storitve/snemanje-konferenc/">Snemanje konferenc →</a></h3>
         <p>Snemanje konferenc: govorci in predavanja, ujeti v objektiv s težo, ki si jo zaslužijo.</p>
       </div>
       <div class="service">
-        <h3>Prenosi v živo</h3>
+        <h3><a href="/storitve/prenos-v-zivo/">Prenosi v živo →</a></h3>
         <p>Spletni prenos v živo z več kamerami: atmosfero dogodka ponesemo izven sobe — do ljudi, ki se niso mogli pridružiti v živo.</p>
       </div>
       <div class="service">
@@ -823,7 +745,7 @@
         <p class="sub" style="margin-top:18px;font-size:14px;color:var(--slate-2)">Videoprodukcija v Ljubljani — snemamo dogodke po vsej Sloveniji in EU.</p>
       </div>
 
-      <form class="contact-form" id="contactForm" action="https://formsubmit.co/info@ovationav.si" method="POST" novalidate>
+      <form class="contact-form" id="contactForm" action="https://formsubmit.co/info@ovationav.si" method="POST">
         <input type="hidden" name="_subject" value="Nova povpraševanja — OVATION">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
@@ -852,12 +774,16 @@
           </select>
         </div>
 
+        <div class="form-row">
+          <div class="form-field"><label for="event-date">Datum dogodka (neobvezno)</label><input id="event-date" name="event_date" type="date"></div>
+          <div class="form-field"><label for="event-location">Prizorišče ali lokacija (neobvezno)</label><input id="event-location" name="event_location" type="text" placeholder="Kraj in prizorišče, če sta že znana"></div>
+        </div>
         <div class="form-field">
           <label for="message">Sporočilo</label>
           <textarea id="message" name="message" required placeholder="Kratek opis dogodka, datum in lokacija …"></textarea>
         </div>
 
-        <button class="form-submit" type="submit">Pošlji povpraševanje</button>
+        <p class="privacy-summary">Podatke uporabimo za odgovor na povpraševanje. Obrazec dostavi storitev FormSubmit. Preberite <a href="/zasebnost/">obvestilo o zasebnosti</a>. Neobvezna polja lahko pustite prazna.</p><button class="form-submit" type="submit">Pošlji povpraševanje</button>
         <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
       </form>
     </div>
@@ -865,7 +791,7 @@
 </section>
 </main>
 
-<footer>
+<footer><nav class="footer-links" aria-label="Raziščite"><a href="/storitve/snemanje-dogodkov/">Snemanje dogodkov</a><a href="/storitve/prenos-v-zivo/">Prenos v živo</a><a href="/storitve/snemanje-koncertov/">Snemanje koncertov</a><a href="/storitve/snemanje-konferenc/">Snemanje konferenc</a><a href="/#work">Naše delo</a><a href="/#contact">Kontakt</a><a href="/vpogledi/">Vpogledi</a><a href="/zasebnost/">Zasebnost</a><a href="/piskotki/">Piškotki</a><a href="/pravne-informacije/">Podatki o ponudniku</a><button type="button" class="cookie-settings" data-cookie-settings hidden>Nastavitve piškotkov</button></nav>
   <div class="wrap foot">
     <span class="foot-brand">OVATION</span>
     <span>V živo se zgodi zgolj enkrat.</span>
@@ -873,110 +799,6 @@
   </div>
 </footer>
 
-<script>
-  const nav = document.getElementById("nav");
-  const loader = document.getElementById("loader");
-  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-
-  addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 40));
-
-  function finishLoading() {
-    if (!loader || loader.classList.contains("is-done")) return;
-    loader.classList.add("is-done");
-    loader.setAttribute("aria-busy", "false");
-    document.body.classList.remove("is-loading");
-    setTimeout(() => loader.remove(), 700);
-  }
-
-  const loaderMinMs = motionQuery.matches ? 400 : 2400;
-  const loaderStart = Date.now();
-  let loaderFinished = false;
-
-  function tryFinishLoading() {
-    if (loaderFinished) return;
-    const elapsed = Date.now() - loaderStart;
-    if (elapsed >= loaderMinMs) {
-      loaderFinished = true;
-      finishLoading();
-    } else {
-      setTimeout(() => {
-        loaderFinished = true;
-        finishLoading();
-      }, loaderMinMs - elapsed);
-    }
-  }
-
-  const heroVideo = document.getElementById("heroVideo");
-  if (heroVideo && !motionQuery.matches) {
-    heroVideo.play().catch(() => {});
-    if (heroVideo.readyState >= 3) {
-      tryFinishLoading();
-    } else {
-      heroVideo.addEventListener("canplay", tryFinishLoading, { once: true });
-      setTimeout(tryFinishLoading, loaderMinMs + 800);
-    }
-  } else {
-    if (heroVideo) {
-      heroVideo.pause();
-      heroVideo.removeAttribute("autoplay");
-    }
-    tryFinishLoading();
-  }
-
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("in");
-        io.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
-
-  const contactForm = document.getElementById("contactForm");
-  const formStatus = document.getElementById("formStatus");
-
-  if (contactForm && formStatus) {
-    const messages = {
-      sending: "Pošiljanje …",
-      success: "Hvala — sporočilo je poslano. Kmalu se oglasimo.",
-      error: "Pošiljanje ni uspelo. Poskusite znova ali pišite na info@ovationav.si."
-    };
-
-    contactForm.addEventListener("submit", async (event) => {
-      event.preventDefault();
-      if (!contactForm.checkValidity()) {
-        contactForm.reportValidity();
-        return;
-      }
-
-      const submitBtn = contactForm.querySelector(".form-submit");
-      submitBtn.disabled = true;
-      formStatus.textContent = messages.sending;
-      formStatus.className = "form-status";
-
-      try {
-        const response = await fetch(contactForm.action, {
-          method: "POST",
-          body: new FormData(contactForm),
-          headers: { Accept: "application/json" }
-        });
-
-        if (response.ok) {
-          contactForm.reset();
-          formStatus.textContent = messages.success;
-          formStatus.className = "form-status is-success";
-        } else {
-          throw new Error("Form submit failed");
-        }
-      } catch {
-        formStatus.textContent = messages.error;
-        formStatus.className = "form-status is-error";
-      } finally {
-        submitBtn.disabled = false;
-      }
-    });
-  }
-</script>
-</body>
+<script src="/assets/js/site-v2.js" defer></script>
+<script src="/assets/js/privacy-v1.js" defer></script></body>
 </html>
